@@ -9,14 +9,15 @@ Increasing Difficulty: As the game progresses, the sequences get faster and more
 Score Tracking: Keeps track of the player's current and best scores.
 
 # How to Play
-Watch the sequence of colors and sounds played by the game.
-Repeat the sequence by clicking on the color pads in the correct order.
-The sequence will get longer and more complex with each round you successfully complete.
-Try to score as high as you can without making mistakes!
+Watch the sequence of colors and sounds played by the game.  
+Repeat the sequence by clicking on the color pads in the correct order.  
+The sequence will get longer and more complex with each round you successfully complete.  
+Try to score as high as you can without making mistakes!  
 
 # Setup and Installation
 
-No installation necessary!\n You can clone or download this repository and simply open the index.html file in your browser to start playing.
+No installation necessary!  
+You can clone or download this repository and simply open the index.html file in your browser to start playing.
 
 git clone [https://github.com/yourusername/simon-game.git](https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git)
 cd SIMON GAME
