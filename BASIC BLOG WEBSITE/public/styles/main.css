@@ -1,0 +1,35 @@
+.weltitle{
+    margin-top: 2px;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: rgb(126, 170, 209);
+}
+.createnew,.updform{
+    padding-left: 5px;
+    margin-left: 5px;
+    display: flex;
+    
+}
+.btn{
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.createform{
+    margin-top: 2px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.dispwritten{
+    margin-top: 2px;
+    margin-left: 5px;
+    padding-left: 5px;
+    
+    
+}
+
+.dispwritten> a:link{
+    text-decoration: none;
+}

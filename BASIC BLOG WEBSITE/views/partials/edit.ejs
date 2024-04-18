@@ -1,0 +1,18 @@
+<%- include("header.ejs") %>
+
+<h1 class="weltitle">Edit Post</h1>
+    
+    <form class="createform" action="/posts/<%= post.id %>/edit" method="post">
+        <input type="text" name="title" value="<%= post.title %>" required>
+        <br>
+        <textarea name="content" required><%= post.content %></textarea>
+        <br>
+        <button type="submit">Update</button>
+    </form>
+    <form class="createform" action="/posts/<%= post.id %>/delete" method="post">
+        <br>
+        <button type="submit">Delete</button>
+    </form>
+
+
+<%- include("footer.ejs") %>

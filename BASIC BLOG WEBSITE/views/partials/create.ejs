@@ -1,0 +1,15 @@
+<%- include("header.ejs") %>
+
+<h1 class="weltitle">Create a New Post</h1>
+    <form class="createform" action="/create" method="post">
+        <label for="title">Enter your title</label><br>
+        <input type="text" name="title" placeholdexr="Title" required>
+        <br>
+        <label for="content">Enter your content</label>
+        <br>
+        <textarea name="content" placeholder="Content" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+<%- include("footer.ejs") %>

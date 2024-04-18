@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+    <hr>
+    <h1 class="weltitle">Welcome to the BLOG site</h1>
+    <br><br>
+    <div class="createnew">
+        <h3 >To create new blog: </h3>
+        <a href="/create" ><button type="button" class="btn btn-outline-primary">+ Create</button></a>
+    </div>
+    <div class="dispwritten">
+        <% if(posts.length>0){ %>
+            <br><br>
+            <h3>Essays written:</h3>
+        <ul>
+            <% posts.forEach(function(post){ %>
+                <li><a href="/posts/<%= post.id %>/edit"><%= post.title %></a> 
+            <% }) %>
+        </ul>
+        <%}%>
+    </div>
+    
+
+
+
+
+
+<%- include("partials/footer.ejs") %>
