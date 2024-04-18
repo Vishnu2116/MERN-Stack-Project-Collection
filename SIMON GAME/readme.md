@@ -16,7 +16,7 @@ Try to score as high as you can without making mistakes!
 
 # Setup and Installation
 
-No installation necessary! You can clone or download this repository and simply open the index.html file in your browser to start playing.
+No installation necessary!\n You can clone or download this repository and simply open the index.html file in your browser to start playing.
 
 git clone [https://github.com/yourusername/simon-game.git](https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git)
 cd SIMON GAME
