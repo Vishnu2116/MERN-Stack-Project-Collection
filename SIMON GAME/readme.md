@@ -3,10 +3,10 @@ Welcome to my Simon Game project! This repository contains a simple yet fun Simo
 
 # Project Features
 
-User-Friendly Interface: A colorful and interactive design that is easy to navigate.
-Sound Effects: Each color pad has a unique sound that plays when it is activated.
-Increasing Difficulty: As the game progresses, the sequences get faster and more complex.
-Score Tracking: Keeps track of the player's current and best scores.
+User-Friendly Interface: A colorful and interactive design that is easy to navigate.  
+Sound Effects: Each color pad has a unique sound that plays when it is activated.  
+Increasing Difficulty: As the game progresses, the sequences get faster and more complex.  
+Score Tracking: Keeps track of the player's current and best scores.  
 
 # How to Play
 Watch the sequence of colors and sounds played by the game.  
@@ -19,11 +19,11 @@ Try to score as high as you can without making mistakes!
 No installation necessary!  
 You can clone or download this repository and simply open the index.html file in your browser to start playing.
 
-git clone [https://github.com/yourusername/simon-game.git](https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git)
-cd SIMON GAME
-open index.html # or double-click on index.html in your file explorer
+git clone https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git  
+cd SIMON GAME  
+open index.html # or double-click on index.html in your file explorer  
 
 # Technologies Used
-HTML
-CSS
-JavaScript
+HTML  
+CSS  
+JavaScript  
