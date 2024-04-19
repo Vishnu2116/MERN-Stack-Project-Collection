@@ -1,0 +1,32 @@
+<%- include("Partials/header.ejs") %>
+
+
+    <div class="fcad" >
+        <h1 class="fcadhead">Please enter the name of Cryptcurrency</h1>
+        <form action="/getdata" method="post">
+            <input type="text" id="cryptoname" name="cryp" placeholder="BTC-USD"><br><br>
+            <button  type="submit">Find</button>
+        </form>
+    </div> 
+    <br><br>
+    <% if(locals.error || locals.data){ %>
+    <div class="fcadcontainer">
+        <div class="fcad1">
+            
+            <% if(locals.error ){ %>
+                <h3>Entered Cryptcurrency does not exist.</h3>
+            <% }else if(locals.data){ %>
+                <ul class="listofdat">
+                    <li>Symbol: <%= data.symbol %></li>
+                    <li>Price: <%= data.price_24h %></li>
+                    <li>Volume: <%= data.volume_24h %></li>
+                    <li>last_trade_price: <%= data.last_trade_price %></li>
+                </ul>
+                <% } %>
+        </div>
+    </div>
+    <% } %>
+   
+
+
+<%- include("Partials/footer.ejs") %>
