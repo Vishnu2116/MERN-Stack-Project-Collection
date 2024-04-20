@@ -20,6 +20,7 @@ body{
 
 #submit{
     background-color: orange;
+    
     width: 70px;
     height: 25px;
     border-radius: 3%;
@@ -48,6 +49,10 @@ body{
     
     height: 120px;
     width: 120px;
+    border:2px solid black;
+    border-radius: 50%;
+    background-color: orange;
+    animation: glow 1s infinite alternate;
 }
 
 .footeri{
@@ -87,3 +92,14 @@ body{
     margin: 0 auto;  
     text-align: center; 
 }
+
+
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px -5px orange;
+    }
+    to {
+      box-shadow: 0 0 5px 5px orange;
+    }
+  }
