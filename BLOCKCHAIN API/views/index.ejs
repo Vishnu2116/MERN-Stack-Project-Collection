@@ -2,7 +2,7 @@
 
 
     <div class="fcad" >
-        <h1 class="fcadhead">Please enter the name of Cryptcurrency</h1>
+        <h1 class="fcadhead">Please enter the name of Cryptocurrency</h1>
         <form action="/getdata" method="post">
             <input type="text" id="cryptoname" name="cryp" placeholder="BTC-USD"><br><br>
             <button id="submit"  type="submit">Find</button>
@@ -14,7 +14,7 @@
         <div class="fcad1">
             
             <% if(locals.error ){ %>
-                <h3>Entered Cryptcurrency does not exist.</h3>
+                <h3>Entered Cryptocurrency does not exist.</h3>
             <% }else if(locals.data){ %>
                 <ul class="listofdat">
                     <li>Symbol: <%= data.symbol %></li>
