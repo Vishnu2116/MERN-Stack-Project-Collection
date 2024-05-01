@@ -24,7 +24,7 @@ PostgreSQL
 
 ### 1.Clone the repository
 ```bash
-git clone [https://github.com/yourusername/permalist-project.git](https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git)   
+git clone https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git  
 cd basic permalist project
 ```
 
