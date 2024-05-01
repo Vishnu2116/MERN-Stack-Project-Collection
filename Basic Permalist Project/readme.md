@@ -22,23 +22,23 @@ PostgreSQL
 
 ## Installation
 
-## 1.Clone the repository
+### 1.Clone the repository
 ```bash
 git clone [https://github.com/yourusername/permalist-project.git](https://github.com/Vishnu2116/MERN-Stack-Project-Collection.git)   
 cd basic permalist project
 ```
 
-## 2.Install NPM packages:
+### 2.Install NPM packages:
 ```bash
 npm i
 ```
 
-## 3.Setup PostgreSQL Database:
+### 3.Setup PostgreSQL Database:
 Ensure PostgreSQL is installed and running on your machine.  
 Create a database for the project.  
 Apply the database schema provided in the query.sql file.  
 
-## Usage  
+# Usage  
 
 Once the application is running, navigate to the main page where you can:  
 
