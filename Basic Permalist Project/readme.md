@@ -13,7 +13,7 @@ Backend: Node.js, Express.js
 Database: PostgreSQL  
 Template Engine: EJS  
 
-## Getting Started
+# Getting Started
 ## Prerequisites
 Node.js  
 npm (Node Package Manager)  
