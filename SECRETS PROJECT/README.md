@@ -3,3 +3,17 @@ SECRETS is a web development project that allows users to log in and share their
 
 
 
+### Features 
+User authentication using Google OAuth.  
+Secure login and logout functionality.  
+Anonymous posting of secrets.  
+
+### Technologies Used
+HTML  
+CSS  
+EJS (Embedded JavaScript Templating)  
+JavaScript  
+Node.js  
+Express.js  
+Passport.js (Google OAuth 2.0)  
+PostgreSQL  
